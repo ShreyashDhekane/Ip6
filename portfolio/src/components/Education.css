@@ -1,0 +1,48 @@
+.education {
+    margin: 40px 0;
+    background-color: #6a0dad;
+    margin-top: 0px; 
+    padding-top: 10px;
+    margin-bottom: 0; 
+    padding-bottom: 20px;
+
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 30px;
+    }
+    
+  .degree-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .degree-text {
+    max-width: 60%; 
+    color: white;
+  }
+  
+  .degree {
+    margin-bottom: 20px; 
+    text-align: right;
+    padding-left: 50px;    
+  }
+  
+  .degree h3 {
+    margin: 5px 0; 
+    color: white;
+    text-align: right;
+  }
+  
+  .degree-icon {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding-right: 100px;
+    color: yellow;
+    padding: 20px 280px 20px 20px;
+  }
+
+  

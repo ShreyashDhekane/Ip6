@@ -1,0 +1,56 @@
+.introduction {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    padding: 100px 10px 100px 10px; 
+    background-color: white; 
+    margin-bottom: 0px; 
+
+  }
+  
+  .intro-image {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .intro-image img {
+    width: 100%; 
+    max-width: 500px; 
+    border-radius: 10px; 
+  }
+  
+  .intro-text {
+    flex: 2; 
+  }
+  
+  .intro-text h2 {
+    font-size: 28px;
+    color: #6a0dad; 
+    margin: 0; 
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+    color: #333; 
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: left; 
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 15px; 
+    font-size: 24px; 
+    color: yellow;
+    transition: color 0.3s; 
+    text-shadow: #333;
+    
+  
+  }
+  
+  .social-icons a:hover {
+    color: #333; 
+  }
+  

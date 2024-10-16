@@ -1,0 +1,47 @@
+.projects-section {
+    padding: 40px 20px;
+    background-color: #4b0082; 
+  }
+  
+  .projects-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white; 
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .project {
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%; 
+    max-width: 600px; 
+    text-align: center; 
+    transition: transform 0.3s;
+  }
+
+  .project:hover {
+    transform: scale(1.1);
+    background-color: yellow;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4b0082;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    color: #4b0082;
+  }
+  
